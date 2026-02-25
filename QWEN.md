@@ -132,6 +132,7 @@ The project uses a comprehensive ESLint setup with:
 - `eslint-config-prettier` — Disables conflicting formatting rules
 
 **Key rules:**
+
 - 2-space indentation
 - Single quotes for strings
 - Semicolons required
@@ -169,15 +170,15 @@ The project uses a comprehensive ESLint setup with:
 
 ### Code Style Summary
 
-| Aspect | Convention |
-|--------|------------|
-| Indentation | 2 spaces |
-| Quotes | Single (`'`) |
-| Semicolons | Required |
-| Line length | 80 characters |
-| Trailing commas | ES5 (objects/arrays, not functions) |
-| Arrow function parens | Always (`(x) => x`) |
-| Line endings | LF (Unix-style) |
+| Aspect                | Convention                          |
+| --------------------- | ----------------------------------- |
+| Indentation           | 2 spaces                            |
+| Quotes                | Single (`'`)                        |
+| Semicolons            | Required                            |
+| Line length           | 80 characters                       |
+| Trailing commas       | ES5 (objects/arrays, not functions) |
+| Arrow function parens | Always (`(x) => x`)                 |
+| Line endings          | LF (Unix-style)                     |
 
 ---
 
