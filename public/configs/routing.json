@@ -1,0 +1,12 @@
+{
+  "routing": [
+    {
+      "name": "root",
+      "route": "/"
+    },
+    {
+      "name": "admin",
+      "route": "/admin"
+    }
+  ]
+}
