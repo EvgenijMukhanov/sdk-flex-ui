@@ -1,9 +1,10 @@
-import type { HttpOptions, HttpResponse } from './types';
 import { buildUrl } from './helpers/buildUrl';
 import { buildHeaders } from './helpers/buildHeaders';
 import { shouldIncludeBody } from './helpers/shouldIncludeBody';
 import { parseResponse } from './helpers/parseResponse';
 import { getStatusCodeText } from './helpers/getStatusCodeText';
+
+import type { HttpOptions, HttpResponse } from './types';
 
 /**
  * Выполняет HTTP-запрос (GET, POST, PUT, DELETE, PATCH)

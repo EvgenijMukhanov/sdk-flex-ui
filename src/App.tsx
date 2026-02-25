@@ -1,5 +1,5 @@
-import { http } from './customisations/http/http';
 import { FlexCard } from './modules/sdk-flex-ui/widgets';
+import { http } from './customisations/http/http';
 
 function App() {
   return (

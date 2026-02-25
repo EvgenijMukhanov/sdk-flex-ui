@@ -1,7 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
-import type { Init, Tools } from '../../ext';
-import styles from './FlexCard.module.css';
+
 import { validateConfigurationRouting } from '../../configurations/routing/validators/validateConfigurationRouting';
+
+import type { Init, Tools } from '../../ext';
+
+import styles from './FlexCard.module.css';
 
 type FlexCardProps = {
   tools: Tools;

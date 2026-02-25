@@ -1,11 +1,11 @@
 import type { Routing } from '../routing';
 import type { ConfigurationRouting } from '../types/routing';
 
-interface ValidationResult {
+type ValidationResult = {
   success: boolean;
   data: Routing | undefined;
   errors: unknown | undefined;
-}
+};
 
 export const validateConfigurationRouting = (
   data: unknown

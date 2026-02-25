@@ -1,18 +1,18 @@
 /**
  * Результат успешного HTTP-запроса
  */
-export interface HttpSuccessResponse<T> {
+export type HttpSuccessResponse<T> = {
   success: true;
   data: T;
   status: number;
   statusText: string;
   headers: Headers;
-}
+};
 
 /**
  * Результат ошибочного HTTP-запроса
  */
-export interface HttpErrorResponse {
+export type HttpErrorResponse = {
   success: false;
   status: number;
   statusText: string;
@@ -21,7 +21,7 @@ export interface HttpErrorResponse {
     message?: string;
     details?: unknown;
   };
-}
+};
 
 /**
  * Тип ответа HTTP-запроса
@@ -38,7 +38,7 @@ export type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
 /**
  * Опции для HTTP-запроса
  */
-export interface HttpOptions {
+export type HttpOptions = {
   url: string;
   method: HttpMethod;
   headers?: Record<string, string>;
@@ -56,4 +56,4 @@ export interface HttpOptions {
    * Не бросать ошибку при неуспешном статусе (по умолчанию true)
    */
   validateStatus?: (status: number) => boolean;
-}
+};
